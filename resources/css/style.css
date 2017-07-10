@@ -1,24 +1,44 @@
+/* General */
+a {
+  color: black;
+}
 /* Header */
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
 display: flex;
+align-items: center;
 }
 
 nav li {
   display: inline-block;
+ margin: 0 10px;
+ padding-right: 30px;
 }
 
 .head {
 display: flex;
 color: MediumAquamarine;
+border: 1px solid black;
+margin: 0 10px;
+align-items: center;
+padding-left: 10px;
 }
 
 img {
   display: flex;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* Container? */
+.container {
+  border: 1px solid black;
 }
