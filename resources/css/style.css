@@ -2,6 +2,11 @@
 a {
   color: black;
 }
+
+html {
+  border: 1px solid black;
+}
+
 /* Header */
 header {
   font-family: Verdana;
@@ -26,7 +31,6 @@ nav li {
 .head {
 display: flex;
 color: MediumAquamarine;
-border: 1px solid black;
 margin: 0 10px;
 align-items: center;
 padding-left: 10px;
@@ -38,7 +42,22 @@ img {
   padding-right: 30px;
 }
 
-/* Container? */
+/* Container */
 .container {
-  border: 1px solid black;
+  display:flex;
+}
+
+.column.large {
+width: 630px;
+order: 3;
+}
+
+.column.medium {
+width: 300px;
+order: 2;
+}
+
+.column.small {
+width: 240px;
+order: 1;
 }
