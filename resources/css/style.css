@@ -15,11 +15,13 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border: 1px solid black;
 }
 
 nav {
 display: flex;
 align-items: center;
+border: 1px solid black;
 }
 
 nav li {
@@ -34,30 +36,92 @@ color: MediumAquamarine;
 margin: 0 10px;
 align-items: center;
 padding-left: 10px;
+border: 1px solid black;
 }
 
 img {
   display: flex;
   padding-left: 30px;
   padding-right: 30px;
+  border: 1px solid black;
 }
 
 /* Container */
-.container {
+.content {
   display:flex;
+  border: 1px solid black;
+  margin: 10px 20px 100px 20px;
+}
+
+.column {
+  flex-direction: column;
 }
 
 .column.large {
 width: 630px;
-order: 3;
+border: 1px solid black;
+margin-right: 30px;
+display:flex;
 }
 
 .column.medium {
 width: 300px;
-order: 2;
+border: 1px solid black;
+display:flex;
 }
 
 .column.small {
 width: 240px;
-order: 1;
+border: 1px solid black;
+display:flex;
+}
+
+.lead-story {
+border: 1px solid black;
+}
+
+.narrative {
+border: 1px solid black;
+}
+
+.stories {
+border: 1px solid black;
+}
+
+.story {
+border: 1px solid black;
+width: 300px;
+}
+
+.text-content {
+border: 1px solid black;
+}
+
+.news-bites {
+border: 1px solid black;
+}
+
+.bite {
+border: 1px solid black;
+}
+
+/* Image-Content */
+.image-content {
+
+}
+
+.fall-cancelled.image-content {
+
+}
+
+.pop-culture.image-content {
+
+}
+
+.cat-ceo.image-content {
+
+}
+
+.cookie {
+
 }
