@@ -50,7 +50,7 @@ img {
 .content {
   display:flex;
   border: 1px solid black;
-  margin: 10px 20px 100px 20px;
+  margin: 30px 30px 100px 30px;
 }
 
 .column {
@@ -68,6 +68,7 @@ display:flex;
 width: 300px;
 border: 1px solid black;
 display:flex;
+margin-right: 30px;
 }
 
 .column.small {
@@ -90,7 +91,6 @@ border: 1px solid black;
 
 .story {
 border: 1px solid black;
-width: 300px;
 }
 
 .text-content {
